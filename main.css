@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 84vh;
+}
+.column1, .column3{
+    height: inherit;
+    background-color: rgb(190, 224, 236);
+    width: 20%;
+}
+.column2{
+    height: inherit;
+    background-color: lightgreen;
+    width: 60%;
+}
+header,footer{
+    height: 7.2vh;
+    background-color: aquamarine;
+}
