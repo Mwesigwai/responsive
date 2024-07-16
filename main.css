@@ -17,3 +17,20 @@ header,footer{
     height: 7.2vh;
     background-color: aquamarine;
 }
+@media screen and (max-width: 1000px){
+    .column2{
+        width: 80%;
+    }
+    .column3{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .column1,.column2,.column3{
+        width: 100%;
+        height: auto;
+    }
+    .column3{
+        display: inherit;
+    }
+}
